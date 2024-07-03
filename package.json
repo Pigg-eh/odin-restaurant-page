@@ -1,0 +1,16 @@
+{
+  "name": "odin-restaurant-page",
+  "version": "1.0.0",
+  "description": "Utilizing webpack to make a mockup restaurant page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ed Hunter",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

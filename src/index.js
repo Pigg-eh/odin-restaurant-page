@@ -21,8 +21,9 @@ return element
 
 function insertText(){
     const paragraph = document.createElement('div')
-    paragraph.classList.add('.hello')
-    paragraph.textContent = 'This restaurant is where Thorfinn from vinland saga would eat'
+    paragraph.textContent = 'Skal!'
+    paragraph.classList.add('hello')
+    
    return paragraph
 }
 

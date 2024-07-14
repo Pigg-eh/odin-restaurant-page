@@ -1,5 +1,39 @@
-.hello {
-    color: blue;
-    font-size: 64px;
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+body>button{
+    height: 100%;
+}
+
+
+div#content {
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    width: 44vw;
+    height: 100%;
+}
+
+h2.title {
+    color: #e44219c9;
+}
+
+img {
+    width: 100%;
+}
+
+.headline {
+    color: rgb(253, 236, 0);
+}
+
+.paragraph{
+    color: #FFF;
 }
 

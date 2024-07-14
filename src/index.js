@@ -1,13 +1,10 @@
 import _, { forEach } from 'lodash';
 import './styles.css';
-import {insertElements} from './home.js'
+import {insertHome} from './home.js'
 
-console.log(insertElements)
+console.log(insertHome)
 
-
-
-
-insertElements()
+insertHome()
 
 
 console.log('Hello god')

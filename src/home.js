@@ -4,7 +4,7 @@ import Icon from './media/outside.png';
     const myImage = new Image();
     myImage.src = Icon;
 
-    const insertElements = function(){
+    const insertHome = function(){
         const element = document.querySelector('div#content');
 
         const title = document.createElement('h2')
@@ -32,7 +32,7 @@ import Icon from './media/outside.png';
 
 
 export {
-    insertElements
+    insertHome
 }
 
 //$ npx webpack --watch

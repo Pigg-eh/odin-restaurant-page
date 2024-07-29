@@ -1,6 +1,8 @@
 import _, { forEach } from 'lodash';
 import './styles.css';
 import {insertHome} from './home.js'
+import {insertMenu} from './menu.js'
+import {insertAbout} from './about.js'
 
 console.log(insertHome)
 
@@ -33,17 +35,15 @@ function addTabListeners(){
                     insertHome()
                     break;
                 case 'insertMenu':
-                    console.log('mune')
+                    insertMenu()
                     break;
                 case 'insertAbout':
-                    console.log('about')
+                    insertAbout()
                     break;
             }
            
         }) 
     });
-
-    
 }
 
 addTabListeners()

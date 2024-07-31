@@ -7,6 +7,8 @@ import Icon from './media/aboutImg.png';
     const insertAbout = function(){
         const element = document.querySelector('div#content');
 
+        element.classList.add("tabcontent");
+
         const title = document.createElement('h2')
         const headline = document.createElement('h3')
         const paragraph = document.createElement('div')

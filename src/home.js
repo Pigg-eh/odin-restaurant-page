@@ -7,6 +7,8 @@ import Icon from './media/outside.png';
     const insertHome = function(){
         const element = document.querySelector('div#content');
 
+        element.classList.add("tabcontent");
+
         const title = document.createElement('h2')
         const headline = document.createElement('h3')
         const paragraph = document.createElement('div')
